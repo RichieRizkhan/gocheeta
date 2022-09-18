@@ -27,7 +27,6 @@ public class DriverTest {
     @Test
     void testDriverCreate(){
 
-
         driver.setUsername("test");
         driver.setFullName("test driver");
         driver.setEmail("test@gmail.com");
@@ -39,4 +38,5 @@ public class DriverTest {
 
         Assertions.assertEquals(driver.getFullName(),response.getFullName());
     }
+
 }
